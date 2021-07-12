@@ -1,3 +1,20 @@
+# React Todo List Implement
+
+Use Todo list practice React. This project implement four components: 
+
+1. TodoList: Declare state and functions, show other three sub-components
+1. Todos: Show all the todo datas. Use sub-component SingleTodo to display all elements, includes of Edit/ toggleFinish/ Remove
+1. AddTodo: Only provide user input new todo
+1. FilterTodo: Provide three status (All/ Finished/ In progress) todo to filter todo datas
+
+Practice using flex box to compose all element
+
+# Functions Owned
+- [x] Add todo data
+- [x] Remove todo data
+- [x] Edit todo data
+- [x] Filter todo data
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,104 @@
+:root {
+    --blue: #1FA2F1;
+    --blueLight: #9BD1F9;
+    --blueBackground: rgba(212, 237, 255, 0.6);
+    --buttonHoverBg: #d4edff;
+    --lightGrey: rgb(230, 236, 240);
+    --lightOrange: rgb(226, 199, 162);
+    --lightYellow: rgb(243, 234, 155);
+    --lightPurple: rgb(202, 167, 248);
+    --spacing: 15px;
+    --greyText: rgb(101, 119, 134);
+    --greyButtonText: rgba(0,0,0,0.34);
+    --red: rgb(226,34,94);
+    --redBackground: rgba(226,34,94,0.1);
+    --green: rgb(23,191,99);
+    --greenBackground: rgba(23,191,99,0.1);
+    --standardChinese: DFKai-sb;
+    --serif: serif;
+}
+
+body {
+    font-family: 'Lato', 'Noto Sans TC', 'sans-serif';
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 1.7;
+    color: #414141;
+    background: #5ebeeb;
+    overflow-x: hidden;
+}
+
+.addTodoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.addTodoButton {
+    border-radius: 5px;
+    background-color: rgb(207,232,220);
+    font-family: var(--serif);
+}
+
+.inputTodo {
+    font-family: 'Lato', 'Noto Sans TC', 'sans-serif';
+    border-radius: 5px;
+    border: px solid;
+    font-family: var(--serif);
+    margin-right: 10px;
+}
+
+.filterTodoContainer {
+    display: flex;
+    justify-content: center;
+    margin: var(--spacing) 0 5px 0;
+}
+
+.filterButton {
+    border-radius: 5px;
+    margin: 0 5px 5px 0;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: rgb(241, 173, 190);
+    font-family: var(--serif);
+}
+
+.todoListsContainer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    flex-direction: column;
+    border: 5px solid var(--lightGrey);
+    width: 60%;
+    margin: 20px auto;
+}
+
+.todoListsContainer > div {
+    font-size: 16px;
+}
+
+.singleTodoData {
+    margin-left: var(--spacing);
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--lightGrey);
+}
+
+.lightOrange {
+    background-color: var(--lightOrange);
+}
+
+.lightYellow {
+    background-color: var(--lightYellow);
+}
+
+.todoContent {
+    width: 80%;
+}
+
+.buttonGroup {
+    margin-left: auto;
+}
+
+.buttonClass {
+    margin-right: var(--spacing);
+}
